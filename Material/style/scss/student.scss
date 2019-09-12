@@ -1,0 +1,454 @@
+$color_1: #ee6e73;
+$color_2: #f43951;
+$color_3: #4a4a4a;
+$color_4: #84898f;
+$color_5: #3431a4;
+$color_6: black;
+$color_7: #707070;
+$color_8: #ff5f20;
+$color_9: white;
+$font-family_1: 'Montserrat';
+$background-color_1: white;
+$background-color_2: #e4e4e4;
+$background-color_3: #f8f8f8;
+$background-color_4: #ff5f20;
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    src: url('../Montserrat-SemiBold.otf');
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: normal;
+    src: url('../Montserrat-Regular.otf');
+}
+nav {
+    background-color: $background-color_1 !important;
+    a {
+        color: $color_1 !important;
+    }
+}
+#student {
+    font-family: $font-family_1;
+    height: calc(100vh - 64px);
+    .content {
+        .portal {
+            padding-top: 5%;
+            flex: 1;
+            .header {
+                .profile {
+                    button {
+                        width: 100px;
+                        height: 45px;
+                        border: 1px solid #f43951;
+                        border-radius: 3px;
+                        color: $color_2;
+                        background-color: $background-color_1;
+                        font-size: 18px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .links {
+                margin-top: 20px;
+                .col.s6.m4.l4.xl4 {
+                    background-color: $background-color_1;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                    .title {
+                        font-size: 16px;
+                        color: $color_3;
+                        font-weight: bold;
+                    }
+                    .link {
+                        color: $color_4;
+                        font-size: 14px;
+                    }
+                    .download {
+                        color: $color_5;
+                        font-size: 14px;
+                    }
+                    p {
+                        margin: 0px !important;
+                    }
+                }
+            }
+            .skills {
+                .tag {
+                    padding: 10px 30px;
+                    background-color: $background-color_2;
+                    color: $color_6;
+                    border-bottom-left-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                    border-top-left-radius: 20px;
+                    border-top-right-radius: 20px;
+                    line-height: 3;
+                }
+            }
+            .education {
+                margin-top: 30px;
+                p.degree {
+                    color: $color_5;
+                    margin: 0px !important;
+                    font-size: 19px;
+                    font-weight: 700;
+                }
+                p.university {
+                    font-size: 17px;
+                    margin: 0px !important;
+                    color: $color_7;
+                }
+                p.year {
+                    margin: 0px !important;
+                }
+                .content {
+                    p.normal {
+                        font-size: 14px;
+                        color: $color_7;
+                    }
+                }
+            }
+            .portfolio {
+                .card {
+                    .card-content {
+                        padding-bottom: 0;
+                    }
+                    .card-title {
+                        color: $color_5;
+                        font-size: 16px;
+                        line-height: 24px;
+                        font-weight: 600;
+                        margin-bottom: 15px;
+                    }
+                    .card-action {
+                        border: 0px !important;
+                        display: flex;
+                        justify-content: space-between;
+                        .italic {
+                            font-style: italic;
+                        }
+                    }
+                    p {
+                        padding-right: 25px;
+                    }
+                }
+            }
+            p {
+                color: $color_7;
+                font-size: 14px;
+            }
+            p.category {
+                color: $color_3;
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 10px !important;
+                margin-bottom: 10px !important;
+            }
+        }
+        .connect {
+            width: 350px;
+            padding-top: 3%;
+            background-color: $background-color_3;
+            p.title {
+                font-size: 24px;
+                font-weight: 600;
+                color: $color_3;
+                span.number {
+                    color: $color_8;
+                }
+            }
+            p.subtitle {
+                font-size: 18px;
+                color: $color_4;
+            }
+            .connections {
+                margin-left: 15%;
+                margin-right: 15%;
+                color: $color_7;
+                .connection_item {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 5px;
+                    img {
+                        border-radius: 25px;
+                        height: 40px;
+                        width: 40px;
+                    }
+                    p.name {
+                        margin-left: 5%;
+                        margin-right: 10%;
+                    }
+                    .plus {
+                        width: 20px;
+                        height: 20px;
+                        color: $color_9;
+                        i {
+                            font-size: 20px;
+                            background-color: $background-color_4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .aboutme {
+        margin-bottom: 40px;
+    }
+    .skills {
+        margin-bottom: 40px;
+    }
+    .education {
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #student {
+        nav {
+            .brand-logo {
+                left: 10%;
+            }
+        }
+        .content {
+            .portal {
+                .header {
+                    .profile {
+                        text-align: center;
+                        img {
+                            height: 166px;
+                            width: 166px;
+                            border-radius: 50%;
+                        }
+                        .personal_info {
+                            margin-bottom: 10px;
+                            p {
+                                margin: 0px !important;
+                            }
+                            .name {
+                                font-size: 39px;
+                                font-weight: bolder;
+                                color: $color_3;
+                            }
+                            .job {
+                                font-size: 22px;
+                                color: $color_4;
+                            }
+                            .location {
+                                font-size: 22px;
+                                color: $color_4;
+                            }
+                        }
+                        .action {
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+        .connect {
+            display: none !important;
+        }
+    }
+}
+@media screen and (max-width: 771px) and (min-width: 601px) {
+    #student {
+        .content {
+            >.row {
+                .portal {
+                    .header {
+                        .profile {
+                            display: flex;
+                            align-items: center;
+                            img {
+                                height: 101px;
+                                width: 101px;
+                                border-radius: 50%;
+                            }
+                            .description {
+                                margin-left: 6%;
+                                margin-right: 6%;
+                                .personal_info {
+                                    margin-bottom: 10px;
+                                    width: 270px;
+                                    p {
+                                        margin: 0px !important;
+                                    }
+                                    .name {
+                                        font-size: 34px;
+                                        font-weight: bolder;
+                                        color: $color_3;
+                                    }
+                                    .job {
+                                        font-size: 18px;
+                                        color: $color_4;
+                                    }
+                                    .location {
+                                        font-size: 18px;
+                                        color: $color_4;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .connect {
+            display: none !important;
+        }
+    }
+}
+@media screen and (max-width: 960px) and (min-width: 770px) {
+    #student {
+        .content {
+            >.row {
+                .portal {
+                    .header {
+                        .profile {
+                            display: flex;
+                            align-items: center;
+                        }
+                        img {
+                            height: 101px;
+                            width: 101px;
+                            border-radius: 50%;
+                        }
+                        .description {
+                            margin-left: 5%;
+                            margin-right: 16%;
+                            .personal_info {
+                                margin-bottom: 10px;
+                                width: 270px;
+                                p {
+                                    margin: 0px !important;
+                                }
+                                .name {
+                                    font-size: 34px;
+                                    font-weight: bolder;
+                                    color: $color_3;
+                                }
+                                .job {
+                                    font-size: 18px;
+                                    color: $color_4;
+                                }
+                                .location {
+                                    font-size: 18px;
+                                    color: $color_4;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .connect {
+            display: none !important;
+        }
+    }
+}
+@media screen and (min-width: 961px) {
+    #student {
+        .content {
+            >.row {
+                display: flex;
+                margin-bottom: 0px;
+                .portal {
+                    .header {
+                        .profile {
+                            display: flex;
+                            align-items: center;
+                            img {
+                                height: 101px;
+                                width: 101px;
+                                border-radius: 50%;
+                            }
+                            .description {
+                                margin-left: 7%;
+                                margin-right: 3%;
+                                .personal_info {
+                                    margin-bottom: 10px;
+                                    width: 270px;
+                                    p {
+                                        margin: 0px !important;
+                                    }
+                                    .name {
+                                        font-size: 34px;
+                                        line-height: 39px;
+                                        font-weight: bolder;
+                                        color: $color_3;
+                                    }
+                                    .job {
+                                        font-size: 18px;
+                                        line-height: 24px;
+                                        color: $color_4;
+                                    }
+                                    .location {
+                                        font-size: 18px;
+                                        line-height: 24px;
+                                        color: $color_4;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .connect {
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1080px) {
+    #student {
+        .content {
+            >.row {
+                display: flex;
+                margin-bottom: 0px;
+                .portal {
+                    .header {
+                        .profile {
+                            display: flex;
+                            align-items: center;
+                            img {
+                                height: 101px;
+                                width: 101px;
+                                border-radius: 50%;
+                            }
+                            .description {
+                                margin-left: 7%;
+                                margin-right: 15%;
+                                .personal_info {
+                                    margin-bottom: 10px;
+                                    width: 270px;
+                                    p {
+                                        margin: 0px !important;
+                                    }
+                                    .name {
+                                        font-size: 34px;
+                                        line-height: 39px;
+                                        font-weight: bolder;
+                                        color: $color_3;
+                                    }
+                                    .job {
+                                        font-size: 18px;
+                                        line-height: 24px;
+                                        color: $color_4;
+                                    }
+                                    .location {
+                                        font-size: 18px;
+                                        line-height: 24px;
+                                        color: $color_4;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .connect {
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}

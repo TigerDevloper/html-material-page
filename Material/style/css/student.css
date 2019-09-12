@@ -1,0 +1,375 @@
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    src: url('../Montserrat-SemiBold.otf');
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: normal;
+    src: url('../Montserrat-Regular.otf');
+}
+nav {
+    background-color: white !important;
+}
+nav a {
+    color: #ee6e73 !important;
+}
+#student {
+    font-family: 'Montserrat';
+    height: calc(100vh - 64px);
+}
+#student .content .portal {
+    padding-top: 5%;
+    flex: 1;
+}
+#student .content .portal .header .profile button {
+    width: 100px;
+    height: 45px;
+    border: 1px solid #f43951;
+    border-radius: 3px;
+    color: #f43951;
+    background-color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+#student .content .portal .links {
+    margin-top: 20px;
+}
+#student .content .portal .links .col.s6.m4.l4.xl4 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#student .content .portal .links .col.s6.m4.l4.xl4 .title {
+    font-size: 16px;
+    color: #4a4a4a;
+    font-weight: bold;
+}
+#student .content .portal .links .col.s6.m4.l4.xl4 .link {
+    color: #84898f;
+    font-size: 14px;
+}
+#student .content .portal .links .col.s6.m4.l4.xl4 .download {
+    color: #3431a4;
+    font-size: 14px;
+}
+#student .content .portal .links .col.s6.m4.l4.xl4 p {
+    margin: 0px !important;
+}
+#student .content .portal .skills .tag {
+    padding: 10px 30px;
+    background-color: #e4e4e4;
+    color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    line-height: 3;
+}
+#student .content .portal .education {
+    margin-top: 30px;
+}
+#student .content .portal .education p.degree {
+    color: #3431a4;
+    margin: 0px !important;
+    font-size: 19px;
+    font-weight: 700;
+}
+#student .content .portal .education p.university {
+    font-size: 17px;
+    margin: 0px !important;
+    color: #707070;
+}
+#student .content .portal .education p.year {
+    margin: 0px !important;
+}
+#student .content .portal .education .content p.normal {
+    font-size: 14px;
+    color: #707070;
+}
+#student .content .portal .portfolio .card .card-content {
+    padding-bottom: 0;
+}
+#student .content .portal .portfolio .card .card-title {
+    color: #3431a4;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#student .content .portal .portfolio .card .card-action {
+    border: 0px !important;
+    display: flex;
+    justify-content: space-between;
+}
+#student .content .portal .portfolio .card .card-action .italic {
+    font-style: italic;
+}
+#student .content .portal .portfolio .card p {
+    padding-right: 25px;
+}
+#student .content .portal p {
+    color: #707070;
+    font-size: 14px;
+}
+#student .content .portal p.category {
+    color: #4a4a4a;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+#student .content .connect {
+    width: 350px;
+    padding-top: 3%;
+    background-color: #f8f8f8;
+}
+#student .content .connect p.title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+#student .content .connect p.title span.number {
+    color: #ff5f20;
+}
+#student .content .connect p.subtitle {
+    font-size: 18px;
+    color: #84898f;
+}
+#student .content .connect .connections {
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #707070;
+}
+#student .content .connect .connections .connection_item {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+#student .content .connect .connections .connection_item img {
+    border-radius: 25px;
+    height: 40px;
+    width: 40px;
+}
+#student .content .connect .connections .connection_item p.name {
+    margin-left: 5%;
+    margin-right: 10%;
+}
+#student .content .connect .connections .connection_item .plus {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+#student .content .connect .connections .connection_item .plus i {
+    font-size: 20px;
+    background-color: #ff5f20;
+}
+
+#student .aboutme, #student .skills, #student .education {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    #student nav .brand-logo {
+        left: 10%;
+   }
+    #student .content .portal .header .profile {
+        text-align: center;
+   }
+    #student .content .portal .header .profile img {
+        height: 166px;
+        width: 166px;
+        border-radius: 50%;
+   }
+    #student .content .portal .header .profile .personal_info {
+        margin-bottom: 10px;
+   }
+    #student .content .portal .header .profile .personal_info p {
+        margin: 0px !important;
+   }
+    #student .content .portal .header .profile .personal_info .name {
+        font-size: 39px;
+        font-weight: bolder;
+        color: #4a4a4a;
+   }
+    #student .content .portal .header .profile .personal_info .job {
+        font-size: 22px;
+        color: #84898f;
+   }
+    #student .content .portal .header .profile .personal_info .location {
+        font-size: 22px;
+        color: #84898f;
+   }
+    #student .content .portal .header .profile .action {
+        margin-top: 20px;
+   }
+    #student .connect {
+        display: none !important;
+   }
+}
+@media screen and (max-width: 771px) and (min-width: 601px) {
+    #student .content > .row .portal .header .profile {
+        display: flex;
+        align-items: center;
+   }
+    #student .content > .row .portal .header .profile img {
+        height: 101px;
+        width: 101px;
+        border-radius: 50%;
+   }
+    #student .content > .row .portal .header .profile .description {
+        margin-left: 6%;
+        margin-right: 6%;
+   }
+    #student .content > .row .portal .header .profile .description .personal_info {
+        margin-bottom: 10px;
+        width: 270px;
+   }
+    #student .content > .row .portal .header .profile .description .personal_info p {
+        margin: 0px !important;
+   }
+    #student .content > .row .portal .header .profile .description .personal_info .name {
+        font-size: 34px;
+        font-weight: bolder;
+        color: #4a4a4a;
+   }
+    #student .content > .row .portal .header .profile .description .personal_info .job {
+        font-size: 18px;
+        color: #84898f;
+   }
+    #student .content > .row .portal .header .profile .description .personal_info .location {
+        font-size: 18px;
+        color: #84898f;
+   }
+    #student .connect {
+        display: none !important;
+   }
+}
+@media screen and (max-width: 960px) and (min-width: 770px) {
+    #student .content > .row .portal .header .profile {
+        display: flex;
+        align-items: center;
+   }
+    #student .content > .row .portal .header img {
+        height: 101px;
+        width: 101px;
+        border-radius: 50%;
+   }
+    #student .content > .row .portal .header .description {
+        margin-left: 5%;
+        margin-right: 16%;
+   }
+    #student .content > .row .portal .header .description .personal_info {
+        margin-bottom: 10px;
+        width: 270px;
+   }
+    #student .content > .row .portal .header .description .personal_info p {
+        margin: 0px !important;
+   }
+    #student .content > .row .portal .header .description .personal_info .name {
+        font-size: 34px;
+        font-weight: bolder;
+        color: #4a4a4a;
+   }
+    #student .content > .row .portal .header .description .personal_info .job {
+        font-size: 18px;
+        color: #84898f;
+   }
+    #student .content > .row .portal .header .description .personal_info .location {
+        font-size: 18px;
+        color: #84898f;
+   }
+    #student .connect {
+        display: none !important;
+   }
+}
+@media screen and (min-width: 961px) {
+    #student .content > .row {
+        display: flex;
+        margin-bottom: 0px;
+   }
+    #student .content > .row .portal .header .profile {
+        display: flex;
+        align-items: center;
+   }
+    #student .content > .row .portal .header .profile img {
+        height: 101px;
+        width: 101px;
+        border-radius: 50%;
+   }
+    #student .content > .row .portal .header .profile .description {
+        margin-left: 7%;
+        margin-right: 3%;
+   }
+    #student .content > .row .portal .header .profile .description .personal_info {
+        margin-bottom: 10px;
+        width: 270px;
+   }
+    #student .content > .row .portal .header .profile .description .personal_info p {
+        margin: 0px !important;
+   }
+    #student .content > .row .portal .header .profile .description .personal_info .name {
+        font-size: 34px;
+        line-height: 39px;
+        font-weight: bolder;
+        color: #4a4a4a;
+   }
+    #student .content > .row .portal .header .profile .description .personal_info .job {
+        font-size: 18px;
+        line-height: 24px;
+        color: #84898f;
+   }
+    #student .content > .row .portal .header .profile .description .personal_info .location {
+        font-size: 18px;
+        line-height: 24px;
+        color: #84898f;
+   }
+    #student .content > .row .connect {
+        margin-top: 5px;
+   }
+}
+@media screen and (min-width: 1080px) {
+    #student .content > .row {
+        display: flex;
+        margin-bottom: 0px;
+   }
+    #student .content > .row .portal .header .profile {
+        display: flex;
+        align-items: center;
+   }
+    #student .content > .row .portal .header .profile img {
+        height: 101px;
+        width: 101px;
+        border-radius: 50%;
+   }
+    #student .content > .row .portal .header .profile .description {
+        margin-left: 7%;
+        margin-right: 15%;
+   }
+    #student .content > .row .portal .header .profile .description .personal_info {
+        margin-bottom: 10px;
+        width: 270px;
+   }
+    #student .content > .row .portal .header .profile .description .personal_info p {
+        margin: 0px !important;
+   }
+    #student .content > .row .portal .header .profile .description .personal_info .name {
+        font-size: 34px;
+        line-height: 39px;
+        font-weight: bolder;
+        color: #4a4a4a;
+   }
+    #student .content > .row .portal .header .profile .description .personal_info .job {
+        font-size: 18px;
+        line-height: 24px;
+        color: #84898f;
+   }
+    #student .content > .row .portal .header .profile .description .personal_info .location {
+        font-size: 18px;
+        line-height: 24px;
+        color: #84898f;
+   }
+    #student .content > .row .connect {
+        margin-top: 5px;
+   }
+}
